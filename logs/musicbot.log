@@ -1,0 +1,24 @@
+[47.032356262] 2019-05-10 17:29:41,975 - INFO - launcher: Starting sanity checks
+[48.033237457] 2019-05-10 17:29:41,976 - INFO - launcher: Checking for Python 3.5+
+[48.033237457] 2019-05-10 17:29:41,976 - INFO - launcher: Checking console encoding
+[48.033237457] 2019-05-10 17:29:41,976 - INFO - launcher: Setting console encoding to UTF-8
+[49.031972885] 2019-05-10 17:29:41,977 - INFO - launcher: Ensuring we're in the right environment
+[51.034688950] 2019-05-10 17:29:41,979 - INFO - launcher: Adding local bins/ folder to path
+[54.035186768] 2019-05-10 17:29:41,982 - INFO - launcher: Required checks passed.
+[55.036067963] 2019-05-10 17:29:41,983 - INFO - launcher: Optional checks passed.
+[55.036067963] 2019-05-10 17:29:41,983 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[137.091636658] launcher-ERROR: Error starting bot
+Traceback (most recent call last):
+  File "run.py", line 367, in main
+    from musicbot import MusicBot
+  File "C:\Users\sarsoura\Desktop\discord\MusicBot\musicbot\__init__.py", line 7, in <module>
+    from .utils import _get_variable
+  File "C:\Users\sarsoura\Desktop\discord\MusicBot\musicbot\utils.py", line 3, in <module>
+    import aiohttp
+ModuleNotFoundError: No module named 'aiohttp'
+[139.092445374] launcher-INFO: Attempting to install dependencies...
+[1638.091325760] launcher-CRITICAL: You may need to run as admin to install dependencies.
+[1638.091325760] launcher-INFO: All done.
